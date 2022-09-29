@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+    --pinterest-brand: #cc0000;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+/* helpers */
+.icon-input {
+    position: relative;
+}
+
+.icon-input i {
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translateY(-50%);
+}
+
+.icon-input input {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 2em;
+    width: 100%;
+}
+
+/*
+    MAIN
+*/
+main {
+    margin-top: 100px; /* nav height + a bit extra; */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* settings the max width allows for smaller devices to have a smaller width than this, so it isn't super big on all devices */
+    padding: 0 1em;
+}
+
+/*
+    FOOTER
+*/
+
+footer {
+}

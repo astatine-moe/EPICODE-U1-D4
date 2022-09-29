@@ -1,0 +1,76 @@
+/*
+    HEADER
+*/
+
+nav {
+    background-color: #ffffff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between; /* horizontal */
+    align-items: center; /* vertical */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo i {
+    font-size: 2em;
+    color: var(--pinterest-brand);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-item {
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 1em 0 1em;
+}
+nav .nav-item a {
+    color: #000000;
+    text-decoration: none;
+}
+nav li.active {
+    background-color: black;
+}
+nav li.active a {
+    color: white;
+}
+nav .nav-item:hover {
+    background-color: #f5f5f5;
+}
+nav ul .nav-item:last-child {
+    margin-right: 0;
+}
+
+nav .search-bar {
+    height: 40px;
+    flex: 1 1 auto;
+}
+nav .search-bar input {
+    border: 1px solid #cccccc;
+    border-radius: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+nav .nav-item.icon i {
+    font-size: 1.5em;
+    color: #505050;
+    transition: color 0.2s;
+}
+
+nav .nav-item.icon:hover i {
+    color: black;
+}
