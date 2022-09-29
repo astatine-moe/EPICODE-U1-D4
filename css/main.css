@@ -158,9 +158,19 @@ main {
     text-overflow: ellipsis;
 }
 
-/*
-    FOOTER
-*/
+/* laptop */
+@media (max-width: 1200px) {
+    .cards .card-wrapper {
+        width: 33.333%;
+    }
+}
 
-footer {
+/* mobile */
+@media (max-width: 768px) {
+    .cards .card-wrapper {
+        width: 50%;
+    }
+    .cards .card-wrapper:nth-child(2n) .card {
+        margin-right: 0;
+    }
 }
