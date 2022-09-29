@@ -6,7 +6,6 @@
 
 * {
     /* wild card to set font globally */
-
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -153,6 +152,10 @@ main {
 
 .cards .card .actions-bottom button:first-child {
     flex: 1 1 auto;
+    /* text elippsis */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /*
